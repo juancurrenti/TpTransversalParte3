@@ -193,7 +193,7 @@ public class FormularioNotas extends javax.swing.JInternalFrame {
         ArrayList<Object> fCabecera = new ArrayList<>();
         fCabecera.add("ID");
         fCabecera.add("Nombre");
-        fCabecera.add("Año");
+        fCabecera.add("Nota");
         for (Object it : fCabecera) {
             model.addColumn(it);
         }
